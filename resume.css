@@ -1,0 +1,205 @@
+/* 
+* @Author: xl
+* @Date:   2015-07-01 21:56:56
+* @Last Modified by:   xl
+* @Last Modified time: 2015-07-01 21:56:56
+*/
+body,div,p,ul,li{
+    padding: 0;
+    margin: 0;
+}
+@font-face {font-family: '/icon/iconfont';
+            src: url('/icon/iconfont.eot'); /* IE9*/
+            src: url('/icon/iconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+            url('/icon/iconfont.woff') format('woff'), /* chrome、firefox */
+            url('/icon/iconfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+            url('/icon/iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */
+}
+.iconfont{
+    font-family:"iconfont" !important;
+    font-size:16px;font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+a:link,a:visited,a:hover,a:active{
+    color: aqua;
+}
+.wrapper{
+    width: 1050px;
+    margin: 0 auto;
+    font-family: 'Microsoft JhengHei', Tahoma, Helvetica, Arial, "\5b8b\4f53", sans-serif;
+}
+.aside{
+    float: left;
+    width: 30%;
+    height: 1230px;
+    background-color: #254665;
+    padding-top: 30px;
+    color: #fff;
+
+}
+.aside .info{
+    font-size: 18px;
+}
+.aside .info .iconfont{
+    font-size: 1.4em;
+    color: #FEFEFE;
+}
+.info-photo{
+    height: 70px;
+    margin-bottom: 30px;
+}
+.info-person ul li{
+    padding-left: 40px;
+    margin-bottom: 30px;
+}
+.skills ul li{
+    padding-left: 40px;
+    padding-bottom: 5px;
+    margin-bottom: 8px;
+}
+.skills ul li div{
+    border-radius: 8px;
+    background-color: #92A4B2;
+    height: 20px;
+    margin-top: 5px;
+}
+.skills ul li p{
+    font-size: .8em;
+}
+#html{
+    width: 79%;
+}
+#css{
+    width: 79%;
+}
+#js{
+    width: 70%;
+}
+#angular{
+    width: 64%
+}
+#node{
+    width: 50%;
+}
+#node{
+    width: 55%;
+}
+
+
+.interest h3{
+    padding-left: 40px;
+}
+.interest .interest-list ul li{
+    padding-left: 40px;
+    margin-bottom: 8px;
+}
+.main{
+    width: 60%;
+    font-family: "微软雅黑";
+    float: left;
+    padding-top: 30px;
+    padding-left: 50px;
+    color: #254667;
+}
+.main-header{
+    width: 100%;
+    overflow: hidden;
+}
+.main .iconfont{
+    font-size: 2.7em;
+}
+.edu{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+.main .main-header div{
+   float: left;
+}
+.main .header-title{
+    width: 90%;
+    padding-top: 8px;
+    padding-left: 15px;
+    font-size: 1.5em;
+}
+.horization{
+    width: 100%;
+    border:1px solid  #254667;
+}
+
+.edu-content p{
+    margin-top: 10px;
+}
+
+.project-content{
+   
+}
+.content-list{
+    margin-bottom: 8px;
+}
+.list-header{
+    margin-top: 8px;
+    margin-bottom: 10px;
+}
+.content-des{
+    margin-left: 132px;
+}
+.content-des ul {
+    list-style:disc;
+}
+.content-des ul li{
+    font-size: .8em;
+    margin-bottom: 5px;
+}
+.content-item .item-title {
+    position: relative;
+    left: -19px;
+    padding-top: 5px;
+    padding-bottom: 8px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.reward{
+    margin-bottom: 20px;
+}
+.reward-content p{
+    padding-left: 30px;
+    margin-top: 10px;
+}
+.english{
+    margin-bottom: 20px;
+}
+.english-content p{
+    padding-left: 30px;
+}
+.self-content{
+    padding-top: 5px;
+}
+.self-content ul li{
+    margin-bottom: 3px;
+    padding-left: 30px;
+}
+.self-content p{
+    margin-bottom: 8px;
+}
+
+
+.other-content {
+    font-size: 15px;
+}
+.other-skill.iconfont{
+    font-size: 24px;
+    margin-right: 20px;
+}
+.other-content p{
+    padding-left: 20px;
+}
